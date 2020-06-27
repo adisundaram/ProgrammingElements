@@ -1,9 +1,10 @@
+added by kannan
 trigger Recursion on Account (After Insert) {
 
     if(Trigger.isAfter&&Trigger.isInsert){
         Account acc = new Account(Name = 'TestAccount');
         Insert acc;
-        insert venkat
+        System.debug('Adi version of comment');
     }
 
 }
