@@ -3,6 +3,7 @@ trigger Recursion on Account (After Insert) {
     if(Trigger.isAfter&&Trigger.isInsert){
         Account acc = new Account(Name = 'TestAccount');
         Insert acc;
+        System.debug('Adi version of comment');
     }
 
 }
