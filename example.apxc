@@ -1,3 +1,4 @@
+added by kannan
 trigger Recursion on Account (After Insert) {
 
     if(Trigger.isAfter&&Trigger.isInsert){
