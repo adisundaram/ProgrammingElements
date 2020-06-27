@@ -1,4 +1,4 @@
-trigger RecursionExample on Account (After Insert) {
+trigger Recursion on Account (After Insert) {
 
     if(Trigger.isAfter&&Trigger.isInsert){
         Account acc = new Account(Name = 'TestAccount');
